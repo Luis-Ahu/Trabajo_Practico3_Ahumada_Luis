@@ -1,6 +1,6 @@
 body {
     font-family: helvetica, sans-serif;
-    background-color: #cccccc;
+    background-color: #9c9b9b;
     margin: 0;
 }
 
@@ -17,6 +17,7 @@ h1 {
     padding: 15px;
     margin: 0;
     text-align: center;
+    border: 2px solid #802f4a;
 }
 
 h3 {
@@ -35,6 +36,7 @@ h3 {
 .CajaGris {
     background-color: #4d4c4c;
     padding: 7px;
+    border: 2px solid #333;
 }
 
 button {
