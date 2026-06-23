@@ -68,6 +68,7 @@
         return (
             <div>
                 <h1>Registro de Personas</h1>
+                    <div className="centrar CajaGris">
                     <form onSubmit={agregarPersona}>
                         <input type="text" placeholder="Nombre" value={nombre}
                             onChange={(e) => setNombre(e.target.value)} required />
@@ -86,8 +87,10 @@
 
                         <button type="submit">Agregar</button>
                     </form>
-
-                <table border="1">
+                </div>
+                <br />
+                <div className="centrar">
+                <table>
                     <thead>
                         <tr>
                             <th>Nombre</th>
@@ -125,6 +128,7 @@
                         ))}
                     </tbody>
                 </table>
+                </div>
             </div>
         );
     }
@@ -137,6 +141,8 @@
 
     </script>
 
-    <a href="index.html">Volver a la pagina principal</a>
+    <div class="centrar CajaGris">
+        <a href="index.html">Volver a la pagina principal</a>
+    </div>
 </body>
 </html>
