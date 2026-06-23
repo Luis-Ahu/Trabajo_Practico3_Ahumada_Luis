@@ -8,9 +8,7 @@ body {
     border: 2px solid #bc436b;
     background-color: #d88da6;
     margin: 20px;
-    padding: 15px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 15px 80px 8px 80px;
     font-size: 20px;
  }
 
@@ -40,27 +38,22 @@ h3 {
 }
 
 button {
-    padding: 10px 15px;
+    background-color: #bc436b;
+    padding: 15px 50px;
     margin-bottom: 20px;
     cursor: pointer;
-}
-
-.contenedor {
-    display: flex;           
-    flex-wrap: wrap;         
-    justify-content: center;
-    gap: 15px;
+    font-size: 20px;
 }
 
 .tarjeta {
     width: 180px;
     padding: 15px;
     border: 2px solid #333;
-    border-radius: 10px;
     background-color: lightgray;
+    margin: 10px;
 }
 
 .destacada {
-    background-color: rgb(180, 178, 170);
+    background-color: rgb(216, 140, 235);
     transform: scale(1.05);
 }
