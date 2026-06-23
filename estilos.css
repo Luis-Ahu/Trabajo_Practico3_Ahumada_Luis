@@ -57,3 +57,14 @@ button {
     background-color: rgb(216, 140, 235);
     transform: scale(1.05);
 }
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
